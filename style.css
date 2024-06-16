@@ -1,0 +1,130 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: rgb(6, 39, 58)
+}
+
+.container{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    border: 1.5px solid rgb(224, 203, 203);
+    border-radius: 12px;
+    padding: 10px 20px 20px 20px;
+    background: rgb(2, 31, 48);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.025);
+}
+
+.display{
+    height: 80px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    font-size: 25px;
+    color: #000e1a;
+    pointer-events: none;
+}
+
+.buttons{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.buttons button{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    /*color: rgb(83, 25, 25);*/
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #eee;
+
+}
+
+.buttons button:active{
+    transform: scale(0.99);
+}
+
+.operator{
+    color: #0e6fc5;
+}
+
+h1{
+  padding: 10px;
+  margin: 10px;
+  font-size: 35px;
+  font-family: ;
+  color: white;
+}
+
+/*
+* { 
+  margen : 0 ;
+  relleno : 0 ;
+  tamaño de caja : cuadro de borde;
+  familia de fuentes : "Poppins" , sans-serif;
+}
+cuerpo { 
+  altura : 100vh ;
+  pantalla : flexible;
+  alinear elementos : centro;
+  justificar contenido : centro;
+  antecedentes : #e0e3eb ;
+}
+.envase { 
+  posición : relativa;
+  ancho máximo : 300px ;
+  ancho : 100% ;
+  radio de borde : 12px ;
+  relleno : 10px 20px 20px ;  
+  fondo : #fff ;
+  sombra de cuadro : 0 5px 10px rgba ( 0 , 0 , 0 , 0.05 ) ;  
+}
+.mostrar { 
+  altura : 80 píxeles ;
+  ancho : 100% ;
+  contorno : ninguno;
+  borde : ninguno;
+  alineación de texto : derecha;
+  margen inferior : 10px ;
+  tamaño de fuente : 25px ;
+  color : #000e1a ;
+  eventos de puntero : ninguno;
+}
+.botones { 
+  pantalla : cuadrícula;
+  espacio de cuadrícula : 10px ;
+  columnas-plantilla-cuadrícula : repetir ( 4 , 1fr ) ;
+}
+botón .botones {  
+  relleno : 10px ;
+  radio del borde : 6px ;
+  borde : ninguno;
+  tamaño de fuente : 20px ;
+  cursor : puntero;
+  color de fondo : #eee ;
+}
+Botón .buttons :activo {  
+  transformar : escala ( 0,99 ) ;
+}
+.operador { 
+  color : #2f9fff ;
+}
+*/
